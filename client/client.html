@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>다중 Client 예제</title>
+   </head>
+   <body>
+      <h1>Websocket client 예제</h1>
+
+      <script src="client.js"></script>
+
+      <div>
+
+      </div>
+
+      <div>---------------</div>
+
+      <label id="connecting"> 연결 대기 중</label>
+
+      <div>
+         <h2>클라이언트 정보</h2>
+         <input id="myid"/>
+      </div>
+
+      <h2>서버에게 한마디</h2>
+
+      <input id="messageToSend"/>
+
+      <div></div>
+
+      <label id="sending"></label>
+
+      <button id="sendclick">보내기</button>
+
+      <div> ------------- </div>
+
+      <h2>서버 기록</h2>
+      <h4 id = "touching">아직 아무런 반응이 없습니다 .. </h4>
+
+      <label id = "incomming"></label>
+      <div>      
+         <textarea id="detectlog">아무런 기록도 받지 못했습니다 ..</textarea>
+      </div>
+
+      <div>------------</div>
+
+      <h2> 현재 연결중인 클라이언트</h2>
+
+      <textarea id="clientList">아직 연결한 클라이언트가 없습니다 ..</textarea>
+
+   </body>
+
+</html>
