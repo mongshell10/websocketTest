@@ -1,1 +1,7 @@
-# websocketTets
+# Websocket First Test
+
+웹소켓 공부 
+Socket.IO를 사용하여 구현하였습니다.
+모르겠어요 .. 절반은 인터넷 보고 따라했습니다.
+
+나름대로  서버에 다중 클라이언트 연결을 구현해봤습니다.
